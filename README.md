@@ -2,6 +2,8 @@
 
 The application can be used to search nearest shops.
 
+![How it looks](https://github.com/visse0001/Nearbyshops/blob/master/media/Nearbyshops/Nerbyshops.png?raw=true)
+
 ## Download
 
 To begin using this application use link below to get started.
@@ -24,8 +26,6 @@ pg_config --version <br />
 Please install postgis extensions using the below command: <br />
 sudo apt-get install postgis postgresql-10-postgis-scripts <br />
 Please use the postgis version same as your postgres db. <br />
-
-
 
 
 ## Usage
