@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <title>Nearby Shops</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+<div class="container">
+<h1>Nearby Shops</h1>
+{% if shops %}
+    <ul>
+        {% for shop in shops %}
+            <li>
+                {{ shop.name }}: {{ shop.distance }}
+            </li>
+        {% endfor %}
+    </ul>
+{% endif %}
+</div>
+</body>
+</html>
